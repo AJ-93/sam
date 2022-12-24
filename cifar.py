@@ -15,7 +15,7 @@ class Cifar:
             torchvision.transforms.RandomHorizontalFlip(),
             transforms.ToTensor(),
             transforms.Normalize(mean, std),
-            #Cutout()
+            Cutout()
         ])
 
         test_transform = transforms.Compose([
