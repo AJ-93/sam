@@ -1,8 +1,8 @@
 import argparse
 import torch
 
-from model.wide_res_net import WideResNet
-from model.smooth_cross_entropy import smooth_crossentropy
+from wrn_model import WideResNet
+#from model.smooth_cross_entropy import smooth_crossentropy
 from cifar import Cifar
 from log_store import Log
 #from utility.initialize import initialize
