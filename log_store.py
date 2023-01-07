@@ -1,10 +1,10 @@
-from utility.loading_bar import LoadingBar
+#from utility.loading_bar import LoadingBar
 import time
 
 
 class Log:
     def __init__(self, log_each: int, initial_epoch=-1):
-        self.loading_bar = LoadingBar(length=27)
+        #self.loading_bar = LoadingBar(length=27)
         self.best_accuracy = 0.0
         self.log_each = log_each
         self.epoch = initial_epoch
