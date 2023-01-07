@@ -7,7 +7,7 @@ from cifar import Cifar
 from log_store import Log
 #from utility.initialize import initialize
 from step_lr import StepLR
-bypass_bn import enable_running_stats, disable_running_stats
+from bypass_bn import enable_running_stats, disable_running_stats
 
 import sys; sys.path.append("..")
 from sam import SAM
