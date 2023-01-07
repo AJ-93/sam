@@ -2,15 +2,15 @@ import argparse
 import torch
 
 from wrn_model import WideResNet
-#from model.smooth_cross_entropy import smooth_crossentropy
+from smooth_crossentropy import smooth_crossentropy
 from cifar import Cifar
 from log_store import Log
-#from utility.initialize import initialize
+from initialize_para import initialize
 from step_lr import StepLR
 from bypass_bn import enable_running_stats, disable_running_stats
 
 import sys; sys.path.append("..")
-from sam import SAM
+from sam_algo import SAM
 
 
 if __name__ == "__main__":
